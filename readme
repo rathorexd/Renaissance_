@@ -1,0 +1,10 @@
+# Synthetic Renaissance Data Generation Using GANs
+
+## Overview
+This project aims to generate synthetic Renaissance-style text with realistic printing imperfections (e.g., ink bleed, smudging, faded text) using a Generative Adversarial Network (GAN). The generated data can be used for digital restoration, historical research, and educational tools.
+
+## Features
+- **Generator**: A custom U-Net-based architecture for generating degraded text images.
+- **Discriminator**: A PatchGAN discriminator for classifying real and synthetic images.
+- **Dataset**: Historical Spanish text from the 17th century, rendered with Renaissance-style fonts and augmented with imperfections.
+- **Evaluation**: Metrics like SSIM and PSNR are used to evaluate the quality of generated images.
